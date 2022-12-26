@@ -1,0 +1,107 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 03-Aug-2022, 15:19:51
+    Author     : Darko
+*/
+
+/*
+
+> 0px XS tj. *extra small* - NO NAME
+
+> 576px SM small devices
+
+
+
+> 768px MD medium devices 
+
+> 992px LG large devices
+
+
+> 1200px XL extra large devices
+
+
+
+
+*/
+@media(min-width:404px){
+    .portfolio .portfolio-item .link-button{
+    display: none;
+    left: 100px;
+    right: 100px;
+    bottom: 30px;
+    }
+ 
+}
+
+@media(min-width:450px){
+    .portfolio .portfolio-item .link-button{
+    display: none;
+    left: 158px;
+    right: 158px;
+    bottom: 30px;
+    }
+ 
+}
+
+
+@media(min-width:576px){
+    .portfolio .portfolio-item .link-button{
+    display: none;
+    left: 50px;
+    right: 50px;
+    bottom: 30px;
+    }
+   
+ 
+}
+@media(min-width:768px){
+    .home{
+        padding: 0;
+        
+    }
+    .portfolio .portfolio-item .link-button{
+    display: none;
+    left: 90px;
+    right: 90px;
+    bottom: 30px;
+    }
+     .navbar-light .navbar-nav .nav-link{
+        margin-left: 50px;
+       
+    }
+ 
+}
+@media(min-width:992px){
+    .home{
+  
+    padding: 30px 0 150px;
+    
+  .navbar-light .navbar-nav .nav-link{
+        margin-left: 68px;
+    }
+}
+    .portfolio .portfolio-item .link-button{
+    display: none;
+    left: 49px; 
+    right: 49px;
+    bottom: 30px;
+    }
+}
+@media(min-width:1200px){
+    .home{
+    
+    padding: 211px 0 181px;
+   
+}
+    .home-text{
+        padding-left: 180px;
+    }
+    .text-content{
+        width: 350px;
+    }
+    
+    
+}
